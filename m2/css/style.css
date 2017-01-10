@@ -6,14 +6,22 @@
 	height:auto;
     
 }
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	
+}
 /* the Desktop version of the site */
 @media screen and (min-width : 992px){
 	h1{
+		
 		margin-left:37%;
 	}
 	.row{
 		
-		margin:0px;
+	margin:0;
+	padding:0;
 	}
 
 p{
@@ -31,33 +39,34 @@ h2{
 	float:right;
 }
 #section1{
-	margin:10px;
+	margin:5px;
 	border: 2px solid black;
 
-	float:left;
+	float:right;
 	
 	background-color:yellow;
-	width:31%;
+	width:32%;
 	
 }
 #section2{
-margin:10px;
+margin:5px;
 	border: 2px solid black;
 
 
 	
 	background-color:yellow;
-	width:31%;
+	width:32%;
 	float:left;
+
 }
 #section3{
-margin:10px;
+margin:5px;
 	border: 2px solid black;
 
-	float:left;
-	
+	float:right;
+	margin-right:1.1%;
 	background-color:yellow;
-	width:31%;
+	width:32%;
 }
 #sec3-h2{
 	
@@ -110,7 +119,7 @@ h2{
 margin:10px;
 	border: 2px solid black;
 
-
+margin-left:2%;
 	
 	background-color:yellow;
 	width:47%;
@@ -123,7 +132,7 @@ margin:10px;
 	float:left;
 	clear:both;
 	background-color:yellow;
-	width:96%;
+	width:97%;
 }
 #sec3-h2{
 	
@@ -165,12 +174,12 @@ h2{
 #section1{
 	margin:10px;
 	border: 2px solid black;
-
+ margin-left:1%;
 	float:left;
 		clear:both;
 
 	background-color:yellow;
-	width:98%;
+	width:97.8%;
 	
 }
 #section2{
@@ -180,7 +189,7 @@ margin:10px;
 
 	clear:both;
 	background-color:yellow;
-	width:98%;
+	width:97.8%;
 	float:left;
 }
 #section3{
@@ -190,7 +199,7 @@ margin:10px;
 	float:left;
 	clear:both;
 	background-color:yellow;
-	width:98%;
+	width:97.8%;
 }
 #sec3-h2{
 	
