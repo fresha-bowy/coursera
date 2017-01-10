@@ -185,7 +185,7 @@ h2{
 #section2{
 margin:10px;
 	border: 2px solid black;
-
+margin-left:1%;
 
 	clear:both;
 	background-color:yellow;
@@ -195,7 +195,7 @@ margin:10px;
 #section3{
 margin:10px;
 	border: 2px solid black;
-
+margin-left:1%;
 	float:left;
 	clear:both;
 	background-color:yellow;
