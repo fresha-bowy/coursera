@@ -20,8 +20,9 @@ body{
 	}
 	.row{
 		
-	margin:0;
-	padding:0;
+		
+margin:0.9%;
+	
 	}
 
 p{
@@ -39,34 +40,32 @@ h2{
 	float:right;
 }
 #section1{
-	margin:5px;
+	margin:1%;
 	border: 2px solid black;
 
-	float:right;
+	float:left;
 	
 	background-color:yellow;
-	width:32%;
 	
+	width:31%;
 }
 #section2{
-margin:5px;
+margin:1%;
+
 	border: 2px solid black;
 
-
-	
+	width:31%;
 	background-color:yellow;
-	width:32%;
 	float:left;
 
 }
 #section3{
-margin:5px;
+	margin:1%;
+	width:31%;
 	border: 2px solid black;
-
-	float:right;
-	margin-right:1.1%;
+float:left;
 	background-color:yellow;
-	width:32%;
+	
 }
 #sec3-h2{
 	
@@ -185,8 +184,8 @@ h2{
 #section2{
 margin:10px;
 	border: 2px solid black;
-margin-left:1%;
 
+margin-left:1%;
 	clear:both;
 	background-color:yellow;
 	width:97.8%;
