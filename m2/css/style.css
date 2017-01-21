@@ -1,10 +1,7 @@
-
-
-
 *{
 	box-sizing: border-box;
 	height:auto;
-    
+    font-size: 20px;
 }
 body{
 	margin:0;
@@ -12,202 +9,119 @@ body{
 	width:100%;
 	
 }
-/* the Desktop version of the site */
+/* Desktop version */
 @media screen and (min-width : 992px){
-	h1{
-		
-		margin-left:37%;
-	}
-	.row{
-		
-		
-margin:0.9%;
-	
-	}
+    header{
+        
+        height: 70px;
+    }
+    
+    .container {
+    width: inherit;
+    height: inherit;
+    
+}
+    #header-nav{
+        
+        height: inherit;
+    }
+    .navbar-brand{
+        
+        margin-left: -100px;
+    }
+    
+    .container-fluid{
+    margin: 10px;
+    background-color: yellowgreen;
+        height: 100%;
+        margin-top: 30px;
+    }
+}
 
-p{
-	
-	float:left;
-	color: black;
-	margin:5px;
-	padding:5px;
-	
-}
-h2{
-	border: 2px solid black;
-	
-	margin:-0.5%;
-	float:right;
-}
-#section1{
-	margin:1%;
-	border: 2px solid black;
-
-	float:left;
-	
-	background-color:yellow;
-	
-	width:31%;
-}
-#section2{
-margin:1%;
-
-	border: 2px solid black;
-
-	width:31%;
-	background-color:yellow;
-	float:left;
-
-}
-#section3{
-	margin:1%;
-	width:31%;
-	border: 2px solid black;
-float:left;
-	background-color:yellow;
-	
-}
-#sec3-h2{
-	
-	background-color:red;
-}
-#sec2-h2{
-	background-color:grey;
-}
-#sec1-h2{
-	background-color: blue;
-}
-}
-/* the tablet version of the site */
+/*Tablet version */
 @media screen and (min-width :768px) and (max-width: 991px){
-	h1{
-			font-size:128%;
-		
-		margin-left:39.5%;
-	}
-	.row{
-		
-		margin:0px;
-	}
-
-p{
-	
-	float:left;
-	color: black;
-	margin:5px;
-	padding:5px;
-	
+    header{
+        
+        height: 70px;
+    }
+    
+    .container {
+    width: inherit;
+    height: inherit;
+    
 }
-h2{
-	border: 2px solid black;
-	
-	margin:-0.5%;
-	float:right;
-}
-#section1{
-	margin:10px;
-	border: 2px solid black;
-
-	float:left;
-	
-	background-color:yellow;
-	width:47%;
-	
-}
-#section2{
-margin:10px;
-	border: 2px solid black;
-
-margin-left:2%;
-	
-	background-color:yellow;
-	width:47%;
-	float:left;
-}
-#section3{
-margin:10px;
-	border: 2px solid black;
-
-	float:left;
-	clear:both;
-	background-color:yellow;
-	width:97%;
-}
-#sec3-h2{
-	
-	background-color:red;
-}
-#sec2-h2{
-	background-color:grey;
-}
-#sec1-h2{
-	background-color: blue;
-}
+    #header-nav{
+        
+        height: inherit;
+    }
+    .navbar-brand{
+        
+        margin-left: -100px;
+    }
+    
+    .container-fluid{
+    margin: 10px;
+    background-color: yellowgreen;
+        height: 100%;
+        margin-top: 30px;
+    }
 }
 
-@media screen and (max-width :768px) {
-	h1{
-		width:60%;
-			font-size:110%;
-		margin-left:40%;
-	}
-	.row{
-		
-		margin:0px;
-	}
+/*mobile version */
+@media screen and (max-width : 767px){
+    header{
+        
+        height: 70px;
+    }
+    
+    .container {
+    width: inherit;
+    height: inherit;
+    
+}
+    #header-nav{
+        
+        height: inherit;
+    }
+    .navbar-brand{
+        margin: auto;
+        width:100%;
+   
+        margin-top:-45px;
+    }
+    
+    .container-fluid{
+    
+    background-color: yellowgreen;
+        height: 100%;
+        margin-top: 30px;
+        margin: 30px;
+            font-size: large;
+    }
+    
+    
+    
+    #nav-list {
+        
+        margin-top: 10px;
+        
+        
+    }
+    
+    #nav-lis a{
+        color: darkblue;
+        text-align: center;
+    }
+    
+    
+    #nav-list a:hover {
+        color: darkgoldenrod;
+    }
+    
+    
+    #menu{
+        background-color: darkred;
+    }
+    
+}
 
-p{
-	
-	float:left;
-	color: black;
-	margin:5px;
-	padding:5px;
-	
-}
-h2{
-	border: 2px solid black;
-	
-	margin:-0.5%;
-	float:right;
-}
-#section1{
-	margin:10px;
-	border: 2px solid black;
- margin-left:1%;
-	float:left;
-		clear:both;
-
-	background-color:yellow;
-	width:97.8%;
-	
-}
-#section2{
-margin:10px;
-	border: 2px solid black;
-
-margin-left:1%;
-	clear:both;
-	background-color:yellow;
-	width:97.8%;
-	float:left;
-}
-#section3{
-margin:10px;
-	border: 2px solid black;
-margin-left:1%;
-	float:left;
-	clear:both;
-	background-color:yellow;
-	width:97.8%;
-}
-#sec3-h2{
-	
-	background-color:red;
-}
-#sec2-h2{
-	background-color:grey;
-}
-#sec1-h2{
-	background-color: blue;
-}
-}
