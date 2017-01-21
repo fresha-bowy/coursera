@@ -120,8 +120,18 @@ body{
     
     
     #menu{
+        margin:inherit;
         background-color: darkred;
     }
     
+    #menu  a:hover{
+        background-color:aqua;
+        
+    }
 }
+
+
+
+
+
 
